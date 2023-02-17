@@ -19,5 +19,5 @@ for letra in palabra:
     nueva_letra = alf[nuevo_indice]
     cifrado += nueva_letra
 
-print(f'El cifrado "de" {palabra} es {cifrado}')
+print(f'El cifrado de {palabra} es {cifrado}')
 
