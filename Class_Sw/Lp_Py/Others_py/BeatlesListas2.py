@@ -1,4 +1,4 @@
-﻿# paso 1
+# paso 1
 Beatles=[]
 print("Paso 1:", Beatles)
 # paso 2

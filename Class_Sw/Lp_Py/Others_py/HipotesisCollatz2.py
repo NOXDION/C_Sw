@@ -1,4 +1,4 @@
-﻿#Hipotesis de collatz
+#Hipotesis de collatz
 
 c0=int(input('Ingresa un numero: '))
 pasos=0
