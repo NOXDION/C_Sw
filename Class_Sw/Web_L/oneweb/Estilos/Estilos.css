@@ -21,7 +21,7 @@ header
     background-color: #96DCD6;
 }
 
-body header .cab_izq
+/*body header*/ .cab_izq
 {
     width: 16%;
     height: 242px;
@@ -70,33 +70,42 @@ body header .cab_der
 nav
 {
   width: 100%;
-  height: 160px;
+  height: 60px;
   background-color: #9AB8BB;
 }
 
-nav .content_nav
+/*nav .content_nav
 {
     display: flex;
-}
-
-/*nav .image_nav
-{
-    width: 20%;
-    height: 80px;
-    
 }*/
 
-nav ul
+nav .image_nav
+{
+    float: left;
+    flex-direction: row;
+}
+
+/*nav ul
 {
     display: inline-flex;
     align-items: center;
-}
+    padding: 14px;
+}*/
 
-nav ul li a
+
+nav ul li
 {
-    margin-left: 25px;
+    display: inline-flex;
+    align-items: center;
+    padding: 14px;
+    margin-left: 50px;
     margin-right: 25px;
     color: rgb(249, 0, 0);
-    font-size: 40;
-    float: left;
+    font-size: 20px;
+    float: center;
+}
+
+nav a
+{
+    color: rgb(249, 0, 0);
 }
