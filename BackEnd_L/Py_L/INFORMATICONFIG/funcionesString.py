@@ -1,0 +1,15 @@
+palabra = 'hola a todos'
+
+print(palabra.count('a'))
+print(palabra.index('a'))
+print(palabra.startswith('h'))
+print(palabra.endswith('s'))
+print(palabra[:3])
+print(palabra.capitalize())
+print(palabra.lower())
+print(palabra.upper())
+print(palabra.isnumeric())
+print(palabra.center(20))
+print(palabra.ljust(20))
+print(palabra.rjust(20))
+print(len(palabra))
